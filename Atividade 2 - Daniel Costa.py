@@ -62,7 +62,9 @@ def showScreen():
     glLoadIdentity()
     iterate()
     glColor3f(1.0, 0.0, 3.0)
-    #pontosManuais()
+    #Imprime o círculo formado pelas coordenadas feitas manualmente.
+    pontosManuais()
+    #Imprime o círculo formado pelas coordenadas passadas como argumento.
     pontoInicial(x, y)
     glutSwapBuffers()
 
